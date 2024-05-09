@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: lightgray;
+}
+
+.container {
+    text-align: center;
+}
+
+#raporListesi {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+#raporListesi th,
+
+#raporListesi td {
+    border: 1px solid black;
+    padding: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    width: auto;
+}
+
+#raporListesi th {
+    background-color: #f2f2f2;
+    width: auto;
+}
+
+#raporListesi tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#raporListesi tr:hover {
+    background-color: dimgray;
+}
+
+#raporListesi a {
+    color: blue;
+    text-decoration: none;
+}
+
+#siralamaButonlari {
+    margin-bottom: 10px;
+}
+
+#siralamaButonlari button {
+    margin-right: 10px;
+}

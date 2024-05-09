@@ -1,0 +1,15 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: lightgray;
+}
+
+.container {
+    text-align: center;
+}
+
+label.form-label {
+    font-size: 18px;
+}
